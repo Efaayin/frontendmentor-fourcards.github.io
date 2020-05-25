@@ -1,6 +1,8 @@
-html {
+body {
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
+    /* padding: 3rem 8rem; */
 }
 
 .container {
@@ -8,6 +10,8 @@ html {
     margin: 0 auto;
     display: flex;
     flex-flow: column nowrap;
+    /* box-sizing: border-box; */
+    /* padding: 1rem 8rem; */
     background-color: hsl(0, 0%, 98%);
     /* padding: 1.5rem; */
 }
@@ -47,7 +51,7 @@ p {
 }
 
 .par {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 img {
@@ -62,7 +66,7 @@ img {
 .body-left {
     background-color: white;
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: 0.5rem 2.5rem;
     box-shadow: 5px 5px 1rem #ddd;
     border-top: 4px solid hsl(180, 62%, 55%);
     /* border: 2px solid red; */
@@ -76,21 +80,21 @@ img {
 .body-top {
     background-color: white;
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: 0.5rem 2.5rem;
     box-shadow: 5px 5px 1rem #ddd;
     border-top: 4px solid hsl(0, 78%, 62%);
 }
 .body-bottom {
     background-color: white;
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: 0.5rem 2.5rem;
     box-shadow: 5px 5px 1rem #ddd;
     border-top: 4px solid hsl(34, 97%, 64%);
 }
 .body-right {
     background-color: white;
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: 0.5rem 2.5rem;
     box-shadow: 5px 5px 1rem #ddd;
     border-top: 4px solid hsl(212, 86%, 64%);
     /* border: 2px solid blue */
